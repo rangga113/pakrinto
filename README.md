@@ -1,47 +1,64 @@
-🏡 Bantuan Desa
-Bantuan Desa adalah aplikasi berbasis web/mobile yang mempermudah komunikasi antara warga desa, Pak RT, dan Admin desa. Warga dapat mengirim laporan terkait infrastruktur, keamanan, kesehatan, dan lainnya — kemudian ditindaklanjuti oleh Pak RT dan Admin secara cepat dan transparan.
+Oke, saya bantu perjelas bagian atas agar fokus ke **aplikasi pembantu warga desa** untuk **admin, user (warga), dan pak RT**, lalu bagian web/fitur ditampilkan di bawah. Berikut versi revisinya:
 
-📲 Fitur Utama
-👥 Untuk Warga:
-Mengirim laporan (infrastruktur, keamanan, dll)
+---
 
-Melihat status laporan secara real-time
+# 🏡 Aplikasi Pembantu Warga Desa
 
-Menerima notifikasi dari Pak RT atau Admin
+**Aplikasi Pembantu Warga Desa** adalah platform berbasis web/mobile yang dirancang untuk memudahkan komunikasi dan pengelolaan laporan di tingkat desa.
+Aplikasi ini ditujukan untuk:
 
-Melihat kegiatan desa
+* 👥 **Warga (User):** menyampaikan laporan atau keluhan terkait infrastruktur, keamanan, kesehatan, dan kebutuhan desa lainnya.
+* 👨‍💼 **Pak RT:** menerima dan menindaklanjuti laporan dari warga, serta memberikan informasi kegiatan desa.
+* 🛠️ **Admin Desa:** mengelola data warga, laporan, dan memastikan transparansi serta validasi tindak lanjut.
 
-👨‍💼 Untuk Pak RT:
-Melihat dan menanggapi laporan warga
+Dengan aplikasi ini, seluruh proses dari **pelaporan hingga penyelesaian** dapat dilakukan secara cepat, transparan, dan mudah diakses oleh semua pihak.
 
-Mengubah status laporan (diproses, selesai, dll)
+---
 
-Membuat kegiatan desa
+## 📲 Fitur Utama
 
-Mengirim notifikasi kepada warga
+### 👥 Untuk Warga
 
-🛠️ Untuk Admin:
-Kelola semua data pengguna dan laporan
+* Mengirim laporan (infrastruktur, keamanan, kesehatan, dll)
+* Melihat status laporan secara real-time
+* Menerima notifikasi dari Pak RT atau Admin
+* Melihat kegiatan desa
 
-Melakukan validasi tanggapan
+### 👨‍💼 Untuk Pak RT
 
-Kelola kegiatan desa
+* Melihat dan menanggapi laporan warga
+* Mengubah status laporan (diproses, selesai, dll)
+* Membuat kegiatan desa
+* Mengirim notifikasi kepada warga
 
-Statistik laporan desa
+### 🛠️ Untuk Admin
 
-🗂️ Struktur Database Singkat
-Tabel	Deskripsi
-Users	Data pengguna (warga, pak RT, admin)
-Laporan	Laporan warga
-Tanggapan	Tanggapan Pak RT/Admin
-Notifikasi	Notifikasi kepada warga
-KegiatanDesa	Agenda atau kegiatan desa
+* Kelola semua data pengguna dan laporan
+* Melakukan validasi tanggapan
+* Kelola kegiatan desa
+* Menampilkan statistik laporan desa
 
-🚀 Teknologi yang Digunakan
-Frontend: HTML, CSS, JavaScript (Vue/React)
+---
 
-Backend: Node.js / Laravel / Express.js
+## 🗂️ Struktur Database Singkat
 
-Database: MySQL / PostgreSQL
+| Tabel            | Deskripsi                            |
+| ---------------- | ------------------------------------ |
+| **Users**        | Data pengguna (warga, pak RT, admin) |
+| **Laporan**      | Laporan dari warga                   |
+| **Tanggapan**    | Tanggapan dari Pak RT/Admin          |
+| **Notifikasi**   | Notifikasi untuk warga               |
+| **KegiatanDesa** | Agenda atau kegiatan desa            |
 
-Mobile: Flutter (opsional)
+---
+
+## 🚀 Teknologi yang Digunakan
+
+* **Frontend:** HTML, CSS, JavaScript (Vue/React)
+* **Backend:** Node.js / Laravel / Express.js
+* **Database:** MySQL / PostgreSQL
+* **Mobile (opsional):** Flutter
+
+---
+
+Mau saya bikinkan **tampilan web mockup sederhana (HTML+CSS)** dari penjelasan ini biar lebih kelihatan struktur halamannya?
