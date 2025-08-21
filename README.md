@@ -54,7 +54,7 @@ Dengan aplikasi ini, seluruh proses dari **pelaporan hingga penyelesaian** dapat
 
 ## 🚀 Teknologi yang Digunakan
 
-* **Frontend:** HTML, CSS, JavaScript (Vue/React)
+* **Frontend:** HTML, CSS, JavaScript
 * **Backend:** Node.js / Laravel 
 * **Database:** MySQL / PostgreSQL
 
