@@ -1,64 +1,50 @@
-Oke, saya bantu perjelas bagian atas agar fokus ke **aplikasi pembantu warga desa** untuk **admin, user (warga), dan pak RT**, lalu bagian web/fitur ditampilkan di bawah. Berikut versi revisinya:
+Aplikasi Pembantu Warga Desa
 
----
+Aplikasi ini membantu mempermudah komunikasi antara warga, pak RT, dan admin desa.
+Fokus utama aplikasi adalah memudahkan proses pelaporan masalah, penyampaian informasi, dan pengelolaan data desa secara cepat dan transparan.
 
-# 🏡 Aplikasi Pembantu Warga Desa
+Fitur Utama
+Untuk Warga
 
-**Aplikasi Pembantu Warga Desa** adalah platform berbasis web/mobile yang dirancang untuk memudahkan komunikasi dan pengelolaan laporan di tingkat desa.
-Aplikasi ini ditujukan untuk:
+Mengirim laporan (infrastruktur, keamanan, kesehatan, dll)
 
-* 👥 **Warga (User):** menyampaikan laporan atau keluhan terkait infrastruktur, keamanan, kesehatan, dan kebutuhan desa lainnya.
-* 👨‍💼 **Pak RT:** menerima dan menindaklanjuti laporan dari warga, serta memberikan informasi kegiatan desa.
-* 🛠️ **Admin Desa:** mengelola data warga, laporan, dan memastikan transparansi serta validasi tindak lanjut.
+Melihat status laporan
 
-Dengan aplikasi ini, seluruh proses dari **pelaporan hingga penyelesaian** dapat dilakukan secara cepat, transparan, dan mudah diakses oleh semua pihak.
+Menerima notifikasi dari RT/Admin
 
----
+Melihat jadwal kegiatan desa
 
-## 📲 Fitur Utama
+Untuk Pak RT
 
-### 👥 Untuk Warga
+Melihat dan menindaklanjuti laporan
 
-* Mengirim laporan (infrastruktur, keamanan, kesehatan, dll)
-* Melihat status laporan secara real-time
-* Menerima notifikasi dari Pak RT atau Admin
-* Melihat kegiatan desa
+Mengubah status laporan (diproses, selesai)
 
-### 👨‍💼 Untuk Pak RT
+Mengelola informasi kegiatan desa
 
-* Melihat dan menanggapi laporan warga
-* Mengubah status laporan (diproses, selesai, dll)
-* Membuat kegiatan desa
-* Mengirim notifikasi kepada warga
+Mengirim pengumuman ke warga
 
-### 🛠️ Untuk Admin
+Untuk Admin
 
-* Kelola semua data pengguna dan laporan
-* Melakukan validasi tanggapan
-* Kelola kegiatan desa
-* Menampilkan statistik laporan desa
+Mengelola data pengguna
 
----
+Memvalidasi laporan dan tanggapan
 
-## 🗂️ Struktur Database Singkat
+Mengelola kegiatan desa
 
-| Tabel            | Deskripsi                            |
-| ---------------- | ------------------------------------ |
-| **Users**        | Data pengguna (warga, pak RT, admin) |
-| **Laporan**      | Laporan dari warga                   |
-| **Tanggapan**    | Tanggapan dari Pak RT/Admin          |
-| **Notifikasi**   | Notifikasi untuk warga               |
-| **KegiatanDesa** | Agenda atau kegiatan desa            |
+Melihat statistik laporan
 
----
+Struktur Database (Ringkas)
+Tabel	Deskripsi
+Users	Data warga, pak RT, admin
+Laporan	Laporan dari warga
+Tanggapan	Respon dari RT/Admin
+Notifikasi	Informasi untuk warga
+KegiatanDesa	Agenda atau acara desa
+Teknologi
 
-## 🚀 Teknologi yang Digunakan
+Frontend: HTML, CSS, JavaScript
 
-* **Frontend:** HTML, CSS, JavaScript
-* **Backend:** Node.js / Laravel 
-* **Database:** MySQL / PostgreSQL
+Backend: Node.js atau Laravel
 
-
-
-
-
+Database: MySQL atau PostgreSQL
