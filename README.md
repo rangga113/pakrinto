@@ -41,3 +41,4 @@ Fokus utama aplikasi adalah memudahkan proses pelaporan masalah, penyampaian inf
 
 
 
+<img width="547" height="908" alt="Screenshot 2025-10-03 080736" src="https://github.com/user-attachments/assets/1641aa76-9c56-4f04-bcdd-a6f4048bd85c" />
