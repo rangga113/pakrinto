@@ -41,27 +41,3 @@ Fokus utama aplikasi adalah memudahkan proses pelaporan masalah, penyampaian inf
 
 
 
-
-
-
-
-
-
-
-flowchart TD
-    A([Start]) --> B[Login]
-
-    B -->|Admin| C[Kelola Data User & Bantuan]
-    C --> D[Verifikasi & Laporan]
-    D --> L[Logout]
-
-    B -->|Pak RT| E[Validasi Data Laporan]
-    E --> F[Pantau Distribusi Bantuan]
-    F --> L[Logout]
-
-    B -->|Warga| G[Ajukan Bantuan / Laporan]
-    G --> H[Cek Status Bantuan / Laporan]
-    H --> L[Logout]
-
-    L --> I([End])
-
