@@ -37,4 +37,31 @@ Fokus utama aplikasi adalah memudahkan proses pelaporan masalah, penyampaian inf
 
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** Node.js atau Laravel  
-- **Database:** MySQL atau PostgreSQL  
+- **Database:** MySQL atau PostgreSQL
+
+
+
+
+
+
+
+
+
+
+flowchart TD
+    A([Start]) --> B[Login]
+
+    B -->|Admin| C[Kelola Data User & Bantuan]
+    C --> D[Verifikasi & Laporan]
+    D --> L[Logout]
+
+    B -->|Pak RT| E[Validasi Data Laporan]
+    E --> F[Pantau Distribusi Bantuan]
+    F --> L[Logout]
+
+    B -->|Warga| G[Ajukan Bantuan / Laporan]
+    G --> H[Cek Status Bantuan / Laporan]
+    H --> L[Logout]
+
+    L --> I([End])
+
